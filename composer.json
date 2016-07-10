@@ -1,12 +1,24 @@
 {
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "name": "matheusfaustino/slackReact",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matheus Faustino",
+            "email": "matheuspfaustino@gmail.com"
+        }
+    ],
     "require": {
+        "php": "~7.0",
         "coderstephen/slack-client": "^0.2.4"
     },
     "autoload": {
         "psr-4": {
-            "SlackReact\\": ["src/core", "src/task"]
+            "SlackReact\\": [
+                "src/core",
+                "src/task"
+            ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
