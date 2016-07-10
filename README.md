@@ -3,7 +3,10 @@ I made it because I want to make simple integrations in slack for my team. So, I
 It is not finished and I am thinking about some modifications.
 
 ### How to use?
-There is a sample folder in the repo and there you will see some examples and how it works. You will need the slack's token and a group name(it's just working in channels, I'm working on it).
+There is a sample folder in the repo and there you will see some examples and how it works. 
+To run the samples you will need the slack's token and a channel name (it's just working in channels, I'm working on it). Make a copy of [configuration.php.dist](/samples/configuration.php.dist) to configuration.php and fill the token and channel. 
+
+If you do not have php 7 in your machine, build the [container](https://github.com/matheusfaustino/docker-slackReact).
 
 ### Contribute
 Feel free to contribuite(PR, issue, etc...), this is my first project, like this, related with PHP and I am not perfect and I never will be, so let's learn together. 
