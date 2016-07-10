@@ -6,7 +6,7 @@ require_once './../vendor/autoload.php';
 
 $configuration = include './configuration.php';
 
-$channel = new Channel('apittest');
+$channel = new Channel($configuration['channel']);
 $channel->setAttachedTaskEvent('message', new TaskLink())
     ->setAttachedTaskEvent('message', new TaskPrint());
 
